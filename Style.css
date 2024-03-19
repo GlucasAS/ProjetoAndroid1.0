@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face{
+    font-family: Robot;
+    src: url(Fontes/idroid.otf) format('opentype'), sans-serif;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #7AE5A4;
+    margin: 0px;
+
+}
+p {
+    text-indent: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Robot';
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size: 2em;
+    padding-top: 10px;
+}
+main h2{
+    font-family: 'Robot';
+    background-image: linear-gradient(to right, #50CB7C, transparent);
+    margin-left: 50px;
+}
+a {
+    color: #3C583F;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+div.video{
+    text-align: center;
+    background-color: #3C583F;
+    height: 450px;
+    padding-top: 45px; 
+    margin-bottom: 20px;
+}
+div {
+    text-align: center;
+}
+header {
+    background-image: linear-gradient(to bottom, #50CB7C, #3C583F );
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.486);
+}
+header > p{
+    color: white;
+}
+header > h1{
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 0px;
+}
+header > nav{
+    text-align: left;
+}
+main{
+    background-color: white;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    max-width: 830px;
+    min-width: 300px;
+    margin: auto;
+    
+}
+aside > ul{
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+#diferente{
+    background-color: #7AC685;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+span {
+    padding-left: 10px;
+}
+aside{
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    width: 82%;
+    background-color: #71ad8b52;
+    padding-bottom: 15px;
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.486);
+}
+nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+nav > a:hover{
+    color: blue;
+}
+
+footer{
+    background-color: #3C583F;
+    height: 70%;
+    text-align: center;
+    color: white;
+
+    
+}
+footer > p{
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+
